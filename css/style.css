@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.dark {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #968787;
+}
+
+.dark .article__tableCell {
+    border: 2px solid #fff;
+    color: fff;
+}
+
+.dark .article__header--listHeader {
+    background-color: #000;
+}

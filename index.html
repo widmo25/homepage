@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Michał Wodniczak - kilka słów o mnie</title>
+    <meta name="description" content="Michał Wodniczak prezentacja mojej osoby">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/buttonposition.css">
+    <link rel="stylesheet" href="css/navlist.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/secret.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script defer src="js/first.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header__h1">Michał Wodniczak</h1>
+            <h2 class="header__h2">Strona ta ma na celu zaprezentowanie mojej osoby</h2>
+        </header>
+        <div class="buttonPossition">
+            <button class="buttonPossition__button js-buttonSide">Przejdź na mroczną strone mocy</button>
+        </div>
+        <nav>
+            <ul class="navigationList">
+                <li class="navigationList__navigationItem"><a class="navigationList__navigationLink" href="#whoIAm">O
+                        Mnie</a></li>
+                <li class="navigationList__navigationItem">
+                    <a class="navigationList__navigationLink" href="#myHobbies">Moje Zainteresowania:</a>
+                    <ul class="navigationList__list">
+                        <li class="navigationList__navigationItem"><a class="navigationList__navigationLink"
+                                href="#football">Piłka Nożna</a></li>
+                        <li class="navigationList__navigationItem"><a class="navigationList__navigationLink"
+                                href="#cycling">Jazda Rowerem</a>
+                        <li class="navigationList__navigationItem"><a class="navigationList__navigationLink"
+                                href="#books">Książki</a></li>
+                        <li class="navigationList__navigationItem"><a class="navigationList__navigationLink"
+                                href="#moviesAndSeries">Filmy i Seriale</a></li>
+                        <li class="navigationList__naviagtionItem"><a class="navigationList__navigationLink"
+                                href="#events">Koncerty</a></li>
+                        <li class="navigationList__navigationItem"><a class="navigationList__navigationLink"
+                                href="#esport">Esport</a></li>
+                        <li class="navigationList__navigationItem"><a class="navigationList__navigationLink"
+                                href="#mountains">Góry</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <section class="section" id="whoIAm">
+            <h2 class="section__h2">O mnie</h2>
+            <img class="section__image" src="https://zapodaj.net/images/6b97b9c314ba3.jpg" alt="Michał Wodniczak">
+            <p>Hej mam na imię <strong class="section__strong">Michał</strong> i mam 25 lat.Mieszkam w małej
+                miejscowości pod
+                Ostrowem Wielkopolskim</p>
+            <p>Jak pewnie większość trafiłem tutaj po darmowy kursie <em>,,Html i Css od podstaw"</em></p>
+            <p>Moim celem jest nauczyć sie jak najwięcej i zostać w przyszłosci <span
+                    class="section__strong"><strong>Junior
+                        Front-End Developerem</strong></span></p>
+            <h2 class="section__h2 section__h2--headHobby">Moje Zainteresowania:</h2>            
+        </section>
+        <main id="myHobbies">
+            
+            <article class="article" id="football">
+                <h3 class="article__header">Piłka nożna</h3>
+                <img class="article__image" src="https://zapodaj.net/images/ee7e2715e4ab8.jpg"
+                    alt="Zdjęcie z turnieju w piłke">
+                <p>Piłka nożna to moja największa pasja.Obeceni gram w Klubie w Kaliskiej Klasie A ,a także w
+                    Ostrowskiej Lidze szóstek</p>
+                <a class="article__link" target="_blank" rel="noreferrer,noopener"
+                    href="https://www.olpna.com.pl/">Sprawdź
+                    więcej informacji o Ostrowskiej lidze szóstek(w nowej karcie)</a>
+            </article>
+            <article class="article" id="cycling">
+                <h3 class="article__header">Jazda na Rowerze</h3>
+                <img class="article__image"
+                    src="https://cdn.pixabay.com/photo/2017/10/12/22/12/cycling-2846201_960_720.jpg"
+                    alt="rower w podróży">
+            </article>
+            <article class="article" id="books">
+                <h3 class="article__header">Książki</h3>
+                <img class="article__image"
+                    src="https://img.jakpost.net/c/2019/03/02/2019_03_02_66706_1551461528._large.jpg"
+                    alt="stos książek">
+            </article>
+            <article class="article" id="moviesAndSeries">
+                <h3 class="article__header">Filmy i Seriale</h3>
+                <img class="article__image"
+                    src="https://p0.pxfuel.com/preview/284/731/718/netflix-peliculas-youtube-digital-royalty-free-thumbnail.jpg"
+                    alt="netflix">
+                <div class="article__tableContainer">
+                    <table class="article__table">
+                        <caption class="article__tableCaption">Moja lista top5 seriali</caption>
+                        <tr>
+                            <th class="article__tableCell article__tableCell--tableHead" scope="column">Serial</th>
+                            <th class="article__tableCell article__tableCell--tableHead" scope="column">Pozycja</th>
+                            <th class="article__tableCell article__tableCell--tableHead" scope="column">Lata produckji
+                            </th>
+                            <th class="article__tableCell article__tableCell--tableHead" scope="column">Ilośc sezonów
+                            </th>
+                        </tr>
+                        <tr>
+                            <th class="article__tableCell article__tableCell--tableHead" scope="row">Prison Break</th>
+                            <td class="article__tableCell">1</td>
+                            <td class="article__tableCell">2005-2009</td>
+                            <td class="article__tableCell">4</td>
+                        </tr>
+                        <tr>
+                            <th class="article__tableCell article__tableCell--tableHead" scope="row">Game Of Throne</th>
+                            <td class="article__tableCell">2</td>
+                            <td class="article__tableCell">2011-2019</td>
+                            <td class="article__tableCell">8</td>
+                        </tr>
+                        <tr>
+                            <th class="article__tableCell article__tableCell--tableHead" scope="row">Narcos</th>
+                            <td class="article__tableCell">3</td>
+                            <td class="article__tableCell">2015-2017</td>
+                            <td class="article__tableCell">3</td>
+                        </tr>
+                        <tr>
+                            <th class="article__tableCell article__tableCell--tableHead" scope="row">Wiedzmiń</th>
+                            <td class="article__tableCell">4</td>
+                            <td class="article__tableCell">2019-</td>
+                            <td class="article__tableCell">1</td>
+                        </tr>
+                        <tr>
+                            <th class="article__tableCell article__tableCell--tableHead" scope="row">La casa de papel
+                            </th>
+                            <td class="article__tableCell">5</td>
+                            <td class="article__tableCell">2017-</td>
+                            <td class="article__tableCell">4</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+            <article class="article" id="events">
+                <h3 class="article__header">Koncerty</h3>
+                <img class="article__image article__image--ostrPhoto" src="https://zapodaj.net/images/7ecbed786381d.jpg"
+                    alt="zdjęcie z ostrym">
+            </article>
+            <article class="article" id="esport">
+                <h3 class="article__header">Esport</h3>
+                <img class="article__image" src="https://zapodaj.net/images/0f7704a548db8.jpg" alt="IEM2018">
+                <h3 class="article__header article__header--listHeader">Eventy na których byłem</h3>
+                <ol>
+                    <li class="article__listItem">Intel Extreme Masters 2014 Katowice</li>
+                    <li class="article__listItem">Intel Extreme Masters 2015 Katowice</li>
+                    <li class="article__listItem">Intel Extreme Masters 2016 Katowice</li>
+                    <li class="article__listItem">Intel Extreme Masters 2017 Katowice</li>
+                    <li class="article__listItem">Intel Extreme Masters 2018 Katowice</li>
+                    <li class="article__listItem">Intel Extreme Masters 2019 Katowice</li>
+                </ol>
+            </article>
+            <article class="article" id="mountains">
+                <h3 class="article__header">Góry</h3>
+                <img class="article__image" src="https://zapodaj.net/images/eeea313e1f891.jpg" alt="wschód słońca">
+                <p>
+                    „Kiedy jestem w górach nie istnieje świat zewnętrzny, zgiełk i pośpiech Jest tylko natura i
+                    życie razem z jej rytmem. Ktoś może powiedzieć, że to tylko mój wymysł, bo przed życiem się nie
+                    ucieknie. Zależy kto co nazywa życiem.” – Piotr Morawski
+                </p>
+            </article>
+        </main>
+        <div class="secretRoom">
+            <button class="secretRoom__buttonSecret">Podziękowanie</button>
+            <div class="secretRoom__secretText">
+
+            </div>
+
+            <button class="secretRoom__destroyButton">Usuń Dowody Zbrodni</button>
+        </div>
+    </div>
+    <footer class="footer">
+        2020&copy; Wszelkie prawa zastrzeżone ! Dziękuje za uwage !
+    </footer>
+</body>
+
+</html>

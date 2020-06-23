@@ -1,0 +1,87 @@
+.article {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.article__header {
+    color: #fff;
+    background-color: #00f;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+.article__header--dark {
+    background-color: #f11;
+}
+.article__header--listHeader{
+    color: #cc0000;
+    background-color:#fff;
+}
+.dark .article__header {
+    background-color: #f11;
+}
+.dark .article__header--listHeader{
+    background-color:#000;
+}
+.article__image {
+    max-width: 300px;
+}
+.article__link{
+    color: #cc0000;
+    font-size: 20px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.article__link:focus {
+    outline: 2px solid #cc0000;
+}
+
+.article__link:hover {
+    color: #00f;
+}
+
+.article__link:active {
+    color: #19d612;
+}
+
+
+.article__image--ostrPhoto {
+    max-height: 300px;
+}
+
+.article__tableContainer {
+    overflow-x: auto;
+}
+
+.article__table {
+    margin: 40px auto;
+    border-collapse: collapse;
+}
+
+.article__tableCaption {
+    margin-top: 50px;
+    padding: 30px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.article__tableCaption--dark {
+    color: fff;
+}
+.article__tableCell {
+    max-width: 150px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #000;
+    font-size: 18px;
+}
+
+.article__tableCell--tableHead {
+    font-weight: 400;
+    background-color: #cc0000;
+}
+
+.article__listItem {
+    color: #cc0000;
+    line-height: 1.7;
+    font-weight: 700;
+}

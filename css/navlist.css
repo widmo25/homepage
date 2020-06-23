@@ -1,0 +1,29 @@
+.navigationList {
+    list-style-type: none;
+}
+.navigationList__navigationItem {
+    color: #cc0000;
+    line-height: 1.7;
+    font-weight: 700;
+}
+.navigationList__navigationLink {
+    color: #cc0000;
+    font-size: 20px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.navigationList__navigationLink:focus {
+    outline: 2px solid #cc0000;
+}
+
+.navigationList__navigationLink:hover {
+    color: #00f;
+}
+
+.navigationList__navigationLink:active {
+    color: #19d612;
+}
+.navigationList__list{
+    list-style-type: none;
+}

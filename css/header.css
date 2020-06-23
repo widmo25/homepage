@@ -1,0 +1,17 @@
+.header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header__h1 {
+    background-color: #f11;
+    text-shadow:3px 2px 4px #968787;
+}
+
+.header__h2 {
+    background-color: #f11;
+    padding: 5px;
+}
+.header__h2--dark {
+    background-color: #00f;
+}

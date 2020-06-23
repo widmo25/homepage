@@ -1,0 +1,21 @@
+.section {
+    margin-top: 20px;
+}
+
+.section__h2 {
+    background-color: #f11;
+    padding:10px;
+}
+
+.section__h2--headHobby {
+    text-align: center;
+    
+}
+
+.section__image {
+    max-width: 300px;
+}
+
+.section__strong {
+    color: #cc0000;
+}
