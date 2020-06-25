@@ -6,8 +6,10 @@ This is my first project.
 - HTML
 - CSS
 - JavaScript
-![https://zapodaj.net/60791d9847e30.png.html]
-![https://zapodaj.net/e598420277bed.png.html]
+
+#ScrenShoot
+![https://zapodaj.net/images/60791d9847e30.png]
+![hthttps://zapodaj.net/images/e598420277bed.png]
 
 ## Status:
 Project is *not finished*
