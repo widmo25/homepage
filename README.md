@@ -9,8 +9,8 @@ This is my first project.
 
 ## ScreenShoot
 
-!(https://zapodaj.net/images/60791d9847e30.png)
-!(https://zapodaj.net/images/e598420277bed.png)
+![first look on website](https://zapodaj.net/images/60791d9847e30.png)
+![buttons on  the site](https://zapodaj.net/images/e598420277bed.png)
 
 ## Status:
 Project is *not finished*
